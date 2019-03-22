@@ -1,0 +1,12 @@
+<div class="jumbotron text-center">
+  <h1 class="display-3">{{title}}</h1>
+  <p class="lead">Jot down ideas to do it later</p>
+    {{#if user}}
+  <a href="/ideas/add" class="btn btn-dark btn-lg">Add an Idea</a>
+
+    {{else}}
+        <a href="/users/login" class="btn btn-dark btn-lg">Add an Idea</a>
+
+    {{/if}}
+
+</div>
